@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style.css">
+    <title>Document</title> 
+</head>
+<body>
+    <nav>
+        <img  id= "logo" src="imagenes/logo.svg" alt="">
+        <a href="Index.html" class="activo">HOME</a>
+        <a href="contacto.html">CONTACTO</a>
+    </nav>
+    <div class="container">
+        <h2 >¿ Queres que nos contactemos con vos?</h2>
+        <form action="codigo.php" method="post">
+            <p>Dejanos tu consulta:</p>
+            <label for="nombre"> Nombre completo <span></span></label>
+            <input type="text" id="nombre">
+            <label for="email">Email <span></span></label>
+            <input type="text" Id="Email" placeholder="Email">
+            <label for="comentario">Comentario <span></span></label>
+            <textarea name="comentario" id="comentario"></textarea>
+            <input  class="botones" id="reset" 
+            value="Resetear" type="reset"><input class="botones" value="Enviar" id="enviar" type="submit">
+        </form>
+    </div>
+
+    
+</body>
+<footer><img id="footer-logo" src="imagenes/logo-blanco.svg" alt=""></footer>
+</html>
